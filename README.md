@@ -20,3 +20,7 @@ As a beginner Rubist, I put here the projects I've done while learning the langu
 (5) List out the products that need to be sold within the week
 (6) Determine how much each product cost the store to purchase, how much it could bring in in revenue and how much it could make in profit
 (7) Put an item on sale, or take an item off sale. Determine the sale discount.
+
+#### Write a Function
+* Write a function which takes in numbers num1 and num2 and returns 1 if there is a straight triple of a number at any place in num1 and also a straight double of the same number in num2. If this isn't the case, return 0. 
+* For example, 2158555466834873666417 and 18661 should return 1; 231118955543 and 455590 should also return 1. 
