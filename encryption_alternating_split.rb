@@ -2,8 +2,8 @@ def encrypt(text, n)
   #your code here
   return text if n<=0
   new_str= []
-  text.chars.each_with_index {|c, i| new_str<< c if i %2 != 0}
-  text.chars.each_with_index {|c, i| new_str<< c if i %2 == 0}
+  text.chars.each_with_index {|c, i| new_str<< c if i%2 != 0}
+  text.chars.each_with_index {|c, i| new_str<< c if i%2 == 0}
   encrypt(new_str.join, n-1)
 end
 
