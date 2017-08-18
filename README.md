@@ -24,3 +24,7 @@ As a beginner Rubist, I put here the projects I've done while learning the langu
 #### Write a Function
 * Write a function which takes in numbers num1 and num2 and returns 1 if there is a straight triple of a number at any place in num1 and also a straight double of the same number in num2. If this isn't the case, return 0. 
 * For example, 2158555466834873666417 and 18661 should return 1; 231118955543 and 455590 should also return 1. 
+
+#### Simple Encryption No. 1 - Alternating Split
+* Take every 2nd char from the string, then the other chars, that are not every 2nd char, and concat them as new String. Do this n times!
+* Write two methods, one to encrypt and the other to decrypt. For both methods: If the input-string is null or empty return exactly this value! If n is <= 0 then return the input text.
